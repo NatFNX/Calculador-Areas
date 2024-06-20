@@ -60,20 +60,19 @@ print()
 print("Gracias! calculando...")
 print() 
 print()  
+# chatti me ayudo a saber como podia mostrar el resultado en la misma linea que imprime el texto
 # se usa el operador % - se usa el %.2f para indicar al float mostrarse con dos decimales.
+
 print("-----------------------------------------------------------------------------")
 print ("    **************** Area total del muñeco: %.2f *****************" %area_total )
 print("-----------------------------------------------------------------------------")
 print()  
-print("Detalles:")
-print()
-
-# chatti me ayudo a saber como podia mostrar el resultado en la misma linea que imprime el texto
-# Usando f-string 
+print("Detalles")
+# chatti: forma #2 para mostrar el resultado en la misma linea que imprime el texto
+# Usando un f-string 
 print (f"Area de un brazo: {area_brazo: .2f}")
 print(f"Area de una pierna:{area_pierna: .2f}")  
 print(f"Area del tronco:{area_tronco:.2f}")  
 print(f"Area del sombrero: {area_sombrero:.2f}") 
 print(f"Area de la cabeza:{area_cabeza: .2f}") 
 print()  
-print() 
